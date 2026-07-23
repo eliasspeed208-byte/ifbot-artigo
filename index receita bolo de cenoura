@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita de Bolo de Cenoura</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🍰 Receita de Bolo de Cenoura</h1>
+    <p>Receita simples, deliciosa e fácil de preparar.</p>
+</header>
+
+<section>
+
+<h2>Ingredientes</h2>
+
+<ul>
+    <li class="solido">3 cenouras médias</li>
+    <li class="solido">2 xícaras de farinha de trigo</li>
+    <li class="solido">2 xícaras de açúcar</li>
+    <li class="liquido">1/2 xícara de óleo</li>
+    <li class="liquido">3 ovos</li>
+    <li class="solido">1 colher (sopa) de fermento químico</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Modo de Preparo</h2>
+
+<ol>
+    <li>Bata no liquidificador as cenouras, os ovos e o óleo.</li>
+    <li>Em uma tigela misture a farinha e o açúcar.</li>
+    <li>Acrescente a mistura do liquidificador.</li>
+    <li>Adicione o fermento e misture delicadamente.</li>
+    <li>Asse em forno pré-aquecido a 180°C por aproximadamente 40 minutos.</li>
+</ol>
+
+</section>
+
+<section>
+
+<h2>Tabela de Preço dos Ingredientes</h2>
+
+<table>
+
+<tr>
+<th>Produto</th>
+<th>Unidade</th>
+<th>Preço Unitário</th>
+<th>Quantidade</th>
+<th>Preço Total Estimado</th>
+</tr>
+
+<tr class="solido">
+<td>Cenoura</td>
+<td>kg</td>
+<td class="valor">R$ 6,00</td>
+<td>0,50 kg</td>
+<td class="total">R$ 3,00</td>
+</tr>
+
+<tr class="solido">
+<td>Farinha de trigo</td>
+<td>kg</td>
+<td class="valor">R$ 5,50</td>
+<td>0,40 kg</td>
+<td class="total">R$ 2,20</td>
+</tr>
+
+<tr class="solido">
+<td>Açúcar</td>
+<td>kg</td>
+<td class="valor">R$ 4,80</td>
+<td>0,40 kg</td>
+<td class="total">R$ 1,92</td>
+</tr>
+
+<tr class="liquido">
+<td>Óleo</td>
+<td>Litro</td>
+<td class="valor">R$ 9,00</td>
+<td>0,12 L</td>
+<td class="total">R$ 1,08</td>
+</tr>
+
+<tr class="liquido">
+<td>Ovos</td>
+<td>Unidade</td>
+<td class="valor">R$ 1,00</td>
+<td>3</td>
+<td class="total">R$ 3,00</td>
+</tr>
+
+<tr class="solido">
+<td>Fermento</td>
+<td>100 g</td>
+<td class="valor">R$ 3,00</td>
+<td>15 g</td>
+<td class="total">R$ 0,45</td>
+</tr>
+
+</table>
+
+</section>
+
+<footer>
+
+<p>Desenvolvido para a disciplina de HTML e CSS.</p>
+
+</footer>
+
+</body>
+</html>
