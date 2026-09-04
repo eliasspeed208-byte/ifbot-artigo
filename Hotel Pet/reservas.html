@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hotel Pet - Reservas</title>
+
+    <link rel="stylesheet" href="stylehp.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Hotel Pet</h1>
+
+        <nav>
+            <a href="reservas.html">Reservas</a>
+            <a href="Pets.html">Pets</a>
+            <a href="usuarios.html">Usuários</a>
+            <a href="configuracoes.html">Configurações</a>
+            <a href="Hotel Pet.html">Sair</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2>Reservas</h2>
+
+        <section>
+
+            <h3>Pesquisar reservas</h3>
+
+            <form>
+
+                <label for="pet">Nome do Pet:</label>
+                <input type="text" id="pet" name="pet">
+
+                <label for="entrada">Data de entrada:</label>
+                <input type="date" id="entrada" name="entrada">
+
+                <label for="saida">Data de saída:</label>
+                <input type="date" id="saida" name="saida">
+
+                <label for="status">Status:</label>
+
+                <select id="status" name="status">
+                    <option value="">Todos</option>
+                    <option value="reservada">Reservada</option>
+                    <option value="andamento">Em andamento</option>
+                    <option value="finalizada">Finalizada</option>
+                </select>
+
+                <button type="submit">Pesquisar</button>
+
+            </form>
+
+        </section>
+
+        <section>
+
+            <h3>Reservas cadastradas</h3>
+
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Pet</th>
+                        <th>Proprietário</th>
+                        <th>Entrada</th>
+                        <th>Saída</th>
+                        <th>Status</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Nina</td>
+                        <td>Gabriela Rocha</td>
+                        <td>01/09/2026</td>
+                        <td>04/09/2026</td>
+                        <td>Finalizada</td>
+                        <td>
+                            <a href="reserva.html">Visualizar</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Bento</td>
+                        <td>Lucas Almeida</td>
+                        <td>05/09/2026</td>
+                        <td>08/09/2026</td>
+                        <td>Reservada</td>
+                        <td>
+                            <a href="reserva.html">Visualizar</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Max</td>
+                        <td>Carlos Mendes</td>
+                        <td>10/09/2026</td>
+                        <td>14/09/2026</td>
+                        <td>Reservada</td>
+                        <td>
+                            <a href="reserva.html">Visualizar</a>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section>
+
+            <a href="reserva.html">
+                <button type="button">Nova Reserva</button>
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hotel Pet</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hotel Pet - Pet</title>
+
+    <link rel="stylesheet" href="stylehp.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Hotel Pet</h1>
+
+        <nav>
+            <a href="reservas.html">Reservas</a>
+            <a href="Pets.html">Pets</a>
+            <a href="usuarios.html">Usuários</a>
+            <a href="configuracoes.html">Configurações</a>
+            <a href="Hotel Pet.html">Sair</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2>Informações do Pet</h2>
+
+        <section>
+
+            <h3>Dados do Pet</h3>
+
+            <form>
+
+                <label for="nome">Nome do Pet:</label>
+                <input type="text" id="nome" name="nome" value="Nina">
+
+                <br><br>
+
+                <label for="tipo">Tipo de animal:</label>
+
+                <select id="tipo" name="tipo">
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato" selected>Gato</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br><br>
+
+                <label for="raca">Raça:</label>
+                <input type="text" id="raca" name="raca" value="Persa">
+
+                <br><br>
+
+                <label for="tamanho">Tamanho:</label>
+
+                <select id="tamanho" name="tamanho">
+                    <option value="pequeno" selected>Pequeno</option>
+                    <option value="medio">Médio</option>
+                    <option value="grande">Grande</option>
+                </select>
+
+                <br><br>
+
+                <label for="proprietario">Proprietário:</label>
+
+                <select id="proprietario" name="proprietario">
+                    <option value="gabriela" selected>Gabriela Rocha</option>
+                    <option value="felipe">Felipe Andrade</option>
+                    <option value="juliana">Juliana Costa</option>
+                </select>
+
+                <br><br>
+
+                <label for="foto">Foto do Pet:</label>
+                <input type="file" id="foto" name="foto">
+
+                <br><br>
+
+                <button type="submit">Salvar alterações</button>
+
+            </form>
+
+        </section>
+
+        <section>
+
+            <h3>Histórico de Reservas</h3>
+
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Entrada</th>
+                        <th>Saída</th>
+                        <th>Status</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>01/09/2026</td>
+                        <td>04/09/2026</td>
+                        <td>Finalizada</td>
+                        <td>R$ 180,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>18/06/2026</td>
+                        <td>20/06/2026</td>
+                        <td>Finalizada</td>
+                        <td>R$ 120,00</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section>
+            <button type="button">Excluir Pet</button>
+        </section>
+
+        <br>
+
+        <a href="Pets.html">Voltar para Pets</a>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hotel Pet</p>
+    </footer>
+
+</body>
+
+</html>
